@@ -1,0 +1,166 @@
+@media only screen and (max-width: 1200px) {
+  #services .card {
+    width: 230px;
+    height: 230px;
+  }
+  #services .card h1 {
+    font-size: 1.25rem;
+  }
+  .service-card-info {
+      font-size: 0.8rem;
+  }
+  #services .card:nth-of-type(2) {
+    right: 230px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+    /* Global */
+    .p-content {
+      padding: 2rem 0;
+      text-align: center;
+      margin: 0;
+    }
+    #navigation h1 {
+      font-size: 1rem;
+    }
+    .title h1 {
+        font-size: 8rem;
+    }
+    .socials img {
+        margin: 2rem 3rem;
+    }
+    #services .card {
+      width: 200px;
+      height: 200px;
+    }
+    #services .card h1 {
+      font-size: 1.2rem;
+    }
+    .service-card-info {
+        font-size: 0.8rem;
+    }
+    #services .card:nth-of-type(2) {
+      right: 195px;
+    }
+    /* About */
+    #about {
+      height: 100%;
+    }
+    #about h1 {
+      text-align: center;
+    }
+    .get-in-touch {
+      padding-top: 2rem;
+    }
+    .social-icons {
+      width: 100%;
+      text-align: center;
+    }
+    
+  }
+
+  @media only screen and (max-width: 768px) {
+    .btn {
+      width: 100%;
+      margin-bottom: 1rem;
+    }
+    /* Home */
+    .title h1 {
+      font-size: 5rem;
+    }
+    /* Nav */
+    #navigation h1 {
+        font-size: 0.8rem;
+    }
+    .socials img {
+        margin: 2rem;
+        width: 70px;
+    }
+    /* Services */
+    #services {
+      height: 100%;
+      flex-direction: column;
+      justify-content: start;
+      text-align: center;
+      padding: 2rem 0;
+    }
+    #services .card {
+      width: 80vw;
+      margin: 1rem 0;
+      height: 120px;
+    }
+    #services .card:nth-of-type(1) {
+      top: 0;
+      left: 0;
+    }
+    #services .card:nth-of-type(2) {
+        right: 0;
+    }
+    #services .card:nth-of-type(3) {
+        bottom: 0;
+        left: 0;
+    }
+
+    #services .card h1 {
+      font-size: 1.5rem;
+    }
+    .service-card-info {
+      font-size: 0.75rem;
+      text-align: center;
+    }
+    /* Reel */
+    #showreel {
+      height: 100%;
+    }
+    .reel {
+      width: 80vw;
+      height: calc(9/16 * 80vw);
+      max-width: calc(16/9 * 80vh);
+      max-height: 80vh;
+    }
+    .reel-circle {
+      width: 75px;
+      height: 75px;
+    }
+    /* Production */
+    #productions {
+      height: 100%;
+      padding: 2rem 0;
+      text-align: center;
+    }
+    .prod-swiper {
+      width: calc(9/14 * 80vw);
+      height: 80vw;
+      margin: 2rem 0;
+    }
+    /* Projects */
+    #projects {
+      height: 100%;
+    }
+    
+
+  }
+
+  @media only screen and (max-width: 480px) {
+    /* Home */
+    .title h1 {
+      font-size: 2.5rem;
+    }
+    .socials img {
+      margin: 1rem;
+      width: 60px;
+  }
+    /* Nav */
+    #navigation h1 {
+        font-size: 0.6rem;
+    }
+    /* Global */
+    .content {
+        padding: 0 5%;
+    }
+    /* Services */
+    #services .card {
+      width: 90vw;
+    }
+  }
