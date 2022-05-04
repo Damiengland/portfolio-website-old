@@ -26,8 +26,8 @@ function About() {
                 <h1 className="get-in-touch">get in touch!</h1>
                 <p className="p-content">Have somthing exciting in the works and want my help? Reach out on LinkedIn or send me an email</p>
                 <div className="social-icons">
-                    <a href = "mailto: damien.england@icloud.com"><i class="fa-solid fa-envelope fa-4x social-icon"></i></a>
-                    <a href="https://www.linkedin.com/in/damien-england-b67a3a141/" target="_blank" rel="noreferrer"><i class="fa-brands fa-linkedin-in fa-4x social-icon"></i></a>
+                    <a href = "mailto: damien.england@icloud.com"><i className="fa-solid fa-envelope fa-4x social-icon"></i></a>
+                    <a href="https://www.linkedin.com/in/damien-england-b67a3a141/" target="_blank" rel="noreferrer"><i className="fa-brands fa-linkedin-in fa-4x social-icon"></i></a>
                 </div>
             </div>
             </div>

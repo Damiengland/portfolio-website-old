@@ -143,6 +143,10 @@
   }
 
   @media only screen and (max-width: 480px) {
+    body {
+      overflow-x: hidden;
+      max-width: 100vw;
+    }
     /* Home */
     .title h1 {
       font-size: 2.5rem;
@@ -162,5 +166,11 @@
     /* Services */
     #services .card {
       width: 90vw;
+    }
+    /* Projects */
+    #projects .swiper-slide {
+      width: 16rem!important;
+      height: calc(9/16 * 16rem);
+
     }
   }

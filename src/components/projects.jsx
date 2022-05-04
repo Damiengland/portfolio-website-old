@@ -27,8 +27,11 @@ function Projects() {
 
     if (width <= 992 && width > 768) {
         slidesNum = 1.5;
-    } else if (width <= 768) {
+    } else if (width <= 768 && width > 480) {
         slidesNum = 1;
+    
+    } else if (width <= 480) {
+        slidesNum = 1.2;
     } else {
         slidesNum = 2;
     };

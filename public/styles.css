@@ -38,7 +38,7 @@ body {
     color: var(--dark-grey);
     font-family: Helvetica, Sans-Serif;
     background-image: url("./images/white-waves.png");
-    overflow-x: hidden;
+    
 }
 
 section {
@@ -49,6 +49,7 @@ section {
 .parent {
     position: relative;
     width: 100vw;
+    overflow-x: hidden;
 }
 .content {
     padding: 0 10%;
@@ -202,12 +203,18 @@ section {
     align-items: center;
     text-align: center;
 }
+iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    background-color: black;
+    border: none;
+}
 .reel {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: white;
     width: 60vw;
 	height: calc(9/16 * 60vw);
     max-width: calc(16/9 * 60vh);
